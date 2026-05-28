@@ -1,4 +1,16 @@
-# Week 9 — RNN with Keras (Housing Data)
+# Week 9
+
+## Homework — Fashion MNIST CNN
+
+| File | Purpose |
+|------|---------|
+| `Homework_09_Fashion_MNIST_CNN.ipynb` | CNN homework (baseline → experiments → Optuna → test) |
+
+Kernel: **Python 3.11 (Week 9 TensorFlow)** (`week 7/.venv`). Run **Run All** from the top (Optuna ~25 trials may take a while on CPU).
+
+---
+
+## In-class — RNN with Keras (Housing Data)
 
 ## Files
 
