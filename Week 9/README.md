@@ -36,3 +36,18 @@ The imports cell sets the working directory to `Week 9` and checks that `ma_lga_
 ## Re-download data
 
 If the CSV is missing, copy it from the course site or from the repo root `ma_lga_12345.csv`.
+
+---
+
+## In-class — Bitcoin forecasting (RNN + XGBoost)
+
+| File | Purpose |
+|------|---------|
+| `Inclass_05_28.ipynb` | Bitcoin close forecasting: SimpleRNN, LSTM, GRU, XGBoost |
+| `dc.csv` | Daily Bitcoin OHLCV (2021–2024) |
+
+1. Open `Inclass_05_28.ipynb` in this folder.
+2. Kernel: **Python 3.11 (Week 9 TensorFlow)** (`week 7/.venv`). Install `xgboost` in that env if the XGBoost cells fail.
+3. **Run All** from the top (recurrent training may take several minutes on CPU).
+
+The activity section improves each baseline RNN and compares against baseline and return-based XGBoost models.
