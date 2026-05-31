@@ -47,7 +47,7 @@ If the CSV is missing, copy it from the course site or from the repo root `ma_lg
 | `dc.csv` | Daily Bitcoin OHLCV (2021–2024) |
 
 1. Open `Inclass_05_28.ipynb` in this folder.
-2. Kernel: **Python 3.11 (Week 9 TensorFlow)** (`week 7/.venv`). Install `xgboost` in that env if the XGBoost cells fail.
+2. Kernel: **Python 3.11 (Week 9 TensorFlow)** (`week 7/.venv`). XGBoost cells call `ensure_libomp()` (loads `libomp` from Anaconda on macOS if needed).
 3. **Run All** from the top (recurrent training may take several minutes on CPU).
 
 The activity section improves each baseline RNN and compares against baseline and return-based XGBoost models.
