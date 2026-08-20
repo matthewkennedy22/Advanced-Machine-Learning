@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+.venv/
+.conda-env/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Word temp files
+~$*.docx
